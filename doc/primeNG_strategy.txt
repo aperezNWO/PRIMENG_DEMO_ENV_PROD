@@ -25,8 +25,18 @@
               -- [_] git add *
               -- [_] git commit -m "strategy update"
               -- [_] git push --set-upstream origin main
-              -- [_] git pull (si todo es correcto debe decir "Already Update")
+              -- [_] git pull (si todo es correcto debe decir "Already Up to date")
 
+-- [_] publish on git hub pages
+
+      -- [_] packages.json
+
+             -- [_]  "deploy-and-publish": "ng build --c=production --base-href=\"https://apereznwo.github.io/PRIMENG_DEMO_ENV_PROD/\" && npx ngh --dir=dist\\primeng-demo-env-prod\\browser"
+  
+             -- [_] npm run deploy-and-publish
+
+             -- [_] browse url : https://apereznwo.github.io/PRIMENG_DEMO_ENV_PROD
+             
 -- [_] PRIME NG
 
        -- [_] install
@@ -51,5 +61,6 @@
        -- [_] QUCK START
 
               -- [_] https://github.com/primefaces/primeng-quickstart-cli
+
 
 ***********************************************************
